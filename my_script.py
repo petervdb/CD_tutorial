@@ -1,5 +1,5 @@
 import datetime
 today = datetime.date.today()
 
-print "This container was last executed on ", str(today)
-print(datetime.datetime.now())
+print ("This container was last executed on ", datetime.datetime.now())
+print ("==================================================================")
