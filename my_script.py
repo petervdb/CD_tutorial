@@ -1,1 +1,5 @@
-print("This is my first test with Continuous Delivery.\n")
+import datetime
+today = datetime.date.today()
+
+print "This container was last executed on ", str(today)
+print(datetime.datetime.now())
