@@ -1,6 +1,6 @@
 import datetime
 today = datetime.date.today()
-version = "1.0.3"
+version = "1.0.4"
 creation_date = "2020-02-15"
 latest_update_date = "2020-02-17"
 logfile="/log/history.log"
