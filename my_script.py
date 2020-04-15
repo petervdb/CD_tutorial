@@ -1,8 +1,8 @@
 import datetime
 today = datetime.date.today()
-version = "1.0.5"
+version = "1.0.6"
 creation_date = "2020-02-15"
-latest_update_date = "2020-02-17"
+latest_update_date = "2020-04-15"
 logfile="/log/history.log"
 f = open(logfile, "a")
 print ("This container version ", version, " created on ", creation_date, " and updated on ", latest_update_date, " was last executed on ", datetime.datetime.now())
